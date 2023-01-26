@@ -1,0 +1,47 @@
+.nelson{
+    margin: 0 auto;
+    width: 10%;
+
+}
+
+.principles h5{
+    margin: 10px auto;
+    text-align: left;  
+    width: 300px;
+} 
+ body section{
+    text-align: center;
+}  
+
+h3{
+    text-align: center;
+    color: white;
+    margin: 0
+    auto;
+
+}
+
+header{
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+body{
+    background-color: pink
+}
+
+section h1{
+    color: white;
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+header h1:hover{
+    color: black;
+}
+
+  /* *{
+    border: 2px solid blue;
+}    */

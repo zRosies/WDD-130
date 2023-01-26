@@ -7,31 +7,44 @@ nav{
 }
 a { color: white;
     margin: 20px;
+    font-size: 1.5em   ;
 
 }
-h1 {
+h1 { text-align: center;
     color:steelblue;
 }
 img{
-    width: 800px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
     border: 4px solid steelblue;
 }
 p{
-    padding: 10px ;
+    
+    width: 80%;
 }
-footer{
+footer, nav{
     background-color: steelblue;
     color: white;
-
+    text-align: center;
+    margin: 0 auto;
 }
 
 .main-para {
+    margin: 0 auto;
     font-size: 1.5em;
     line-height: 1.5em;          
-    
+}
+.para1{
+    text-align: center;
+    margin: 0
+    auto;
 }
 
-#active{
+a:hover{
     background-color: white;
     color: steelblue;
 }
+/* 
+*{border: 2px solid blue;} */
