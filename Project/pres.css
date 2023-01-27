@@ -42,6 +42,10 @@ header h1:hover{
     color: black;
 }
 
+nav a{
+    text-align: center;
+}
+
   /* *{
     border: 2px solid blue;
 }    */
