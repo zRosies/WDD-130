@@ -9,6 +9,7 @@
 .home-title{
     color: #2F6975;
     margin-top: 10px;
+    margin-bottom: 40px;
 } 
 .book{
     background-color: #2F6975;
@@ -57,16 +58,22 @@
 #hero{
     margin: 0  auto;
     text-align: center;
+    
+    
 
 }
 #hero-img{
     width: 100%;
     height: 5%;
+    border: 0;
+    margin: 0;
+
 }
 
 header{
     background-color: #2F6975;
     margin: 0 auto;
+    margin-bottom: -4px;
 }
 
 body{
@@ -161,9 +168,12 @@ footer{
     text-decoration: none;
 }
 
-.social img{
+.social a{
     padding-top: 15px;
+    color: #2F6975;
+    background-color: #2F6975;
 }
+
 
 
 .footer:hover{
@@ -174,6 +184,6 @@ footer p{
    font-size: 1.2em;
 }
 
- *{
+/* *{
     border: 2px solid blue;
-}       
+}        */ 
