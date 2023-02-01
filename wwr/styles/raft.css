@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Rock+Salt&display=swap');
 
 #content{
     max-width: 1600px;
@@ -7,11 +8,21 @@
 
 .home-title{
     color: #2F6975;
-}
+    margin-top: 10px;
+} 
 .book{
     background-color: #2F6975;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#hero-msg h1{
+    font-family:'Rock Salt', sans-serif;
+    font-size: 2em;
 }
 
 
@@ -24,12 +35,23 @@
     width: 95px;
     height: 90px;
     border-radius: 50%;
-    color: aqua;
-    background-color: #E8AA14;
-    padding: 5px;
+    border: 8px solid #E8AA14;
+    padding: 7px;
+    background-color: #f0f1d7;
+
+
 }
+#logo_link{
+    padding-top: 5px;
+
+}
+
 .logo:hover{
-    color:#0093A3 ; background-color:#0093A3;
+    color:#0093A3;
+    background-color: #0093A3;
+    border: 8px solid #E8AA14 ;
+  
+
 }
 
 #hero{
@@ -46,11 +68,26 @@ header{
     background-color: #2F6975;
     margin: 0 auto;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: 'Raleway', Arial, sans-serif;
+    background-color: #f0f1d7;
+}
+
+h2{
+    margin: 0;
+}
+
 nav a{
     color: white;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
 
+    
 }
 nav a:hover{
     background-color: #E8AA14;
@@ -59,19 +96,30 @@ nav a:hover{
 main section{
     margin: 0  auto;
     text-align: center;
+    padding-top: 150px;
 } 
 .msg{
     margin: 0 auto;
     text-align: center;
     background-color: #2F6975;
     color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .join{
     color: white;
     background-color: #0093A3;
     text-decoration: none;
-    margin: 50px auto;
     height: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color:#E8AA14 ;
@@ -80,23 +128,43 @@ main section{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #E8AA14;
+}
+
+main section img{
+    box-sizing: border-box;
+}
 #background{
     background-color: #2F6975;
     height: 725px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 footer{
     background-color: #2F6975;
-    color:white
+    color:white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    text-decoration: none;
 }
 
 .footer{
     color: white;
     background-color: #2F6975;
     text-decoration: none;
-
 }
+
+.social img{
+    padding-top: 15px;
+}
+
 
 .footer:hover{
     text-decoration: underline;
@@ -106,7 +174,6 @@ footer p{
    font-size: 1.2em;
 }
 
-
- /* *{
+ *{
     border: 2px solid blue;
-}   */
+}       
