@@ -40,7 +40,7 @@
     border: 8px solid #E8AA14;
     padding: 5px;
     background-color: #f0f1d7;
-    animation: wave 3s linear infinite;
+    animation: wave 2.5s linear infinite;
 }
 @keyframes wave {
     0% {
@@ -257,7 +257,7 @@ main{
     color: white;
     line-height: 1.5em;
     padding: 35px;
-    margin-top: 200px;
+    margin-top: 165px;
     grid-column: 6/10;
     grid-row: 5/6;
     z-index: 2;
@@ -265,6 +265,7 @@ main{
     width: 100%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
     align-self: flex-start;
+
 }
 
 main section img{
