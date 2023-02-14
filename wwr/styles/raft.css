@@ -65,7 +65,7 @@
       transform: rotate(-18deg);
     }  
     60% {
-      transform: translate(0,-3px);
+      transform: translate(0,-4px);
     }
     70% {
       transform: rotate(16deg);
