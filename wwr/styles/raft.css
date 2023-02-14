@@ -40,29 +40,29 @@
     border: 8px solid #E8AA14;
     padding: 5px;
     background-color: #f0f1d7;
-    animation: wave 2.6s linear infinite;
+    animation: wave 2.7s linear infinite;
 }
 @keyframes wave {
     0% {
       transform: rotate(0deg);
     }
     10% {
-      transform: rotate(-18deg);
+      transform: rotate(-20deg);
 
     }
     20% {
-        transform: translate(0,-3px);
+        transform: translate(0,-4px);
       }
 
     30% {
-      transform: rotate(20deg);
+      transform: rotate(18deg);
     
     }
     40% {
         transform: translate(0,2px);
       }
     50% {
-      transform: rotate(-18deg);
+      transform: rotate(-22deg);
     }  
     60% {
       transform: translate(0,-4px);
