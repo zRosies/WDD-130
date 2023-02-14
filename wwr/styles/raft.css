@@ -48,19 +48,29 @@
     }
     10% {
       transform: rotate(-18deg);
+
     }
     20% {
+        transform: translate(0,-2px);
+      }
+
+    30% {
       transform: rotate(20deg);
+    
     }
     40% {
+        transform: translate(0,2px);
+      }
+    50% {
       transform: rotate(-18deg);
-    }
+    }  
     60% {
-      transform: rotate(16deg);
+      transform: translate(0,-2px);
     }
     70% {
-      transform: translate(2deg);
+      transform: rotate(16deg);
     }
+  
     100% {
       transform: rotate(0deg);
     }
@@ -121,8 +131,8 @@
 header{
     background-color: #2F6975;
     margin: 0 auto;
-    padding: 0 px;
-    border: 0 px;
+    padding: 0 ;
+    border: 0;
     width: 100%;
     display:grid;
     grid-template-columns: 150px auto;
@@ -143,7 +153,7 @@ nav{
 
 body{
     margin: 0 auto;
-    padding: 0 px;
+    padding: 0;
     font-size: 22px;
     font-family: 'Raleway', Arial, sans-serif;
     background-color: #f0f1d7;
@@ -261,7 +271,6 @@ main{
     grid-column: 6/10;
     grid-row: 5/6;
     z-index: 2;
-    box-shadow: #E8AA14;
     width: 100%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
     align-self: flex-start;
