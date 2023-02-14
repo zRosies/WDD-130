@@ -82,6 +82,7 @@
     justify-self: center;
     align-self: center;
 
+
 }
 
 .logo:hover{
@@ -137,9 +138,9 @@ header{
     display:grid;
     grid-template-columns: 150px auto;
     grid-template-rows: 1fr;
-    z-index: 3;
+    z-index: 20;
     position: fixed;
-    opacity: 0.8;
+    opacity: 88%;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     right:0;
