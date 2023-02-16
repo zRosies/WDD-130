@@ -29,7 +29,10 @@ Fonts are separated by a & */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
+.wire{
+  height:200px;
+  width: 1000px;
+}
 body {
   max-width: 960px;
   margin: 0 auto;
@@ -40,7 +43,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 400px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
