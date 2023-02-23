@@ -8,8 +8,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color:  black; 
   --secondary-color: #004B23;
-  --accent1-color: #CCFF33;
-  --accent2-color: #347C13;
+  --accent1-color:  #347C13;
+  --accent2-color:#ffff;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Reem Kufi Fun;
