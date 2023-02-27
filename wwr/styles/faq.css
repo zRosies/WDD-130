@@ -172,9 +172,9 @@ main section{
 
 details{
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px rgb(2, 2, 2);
+    box-shadow: 4px 4px 5px rgb(2, 2, 2);
     justify-content: space-around;
     background: #0093A3;
     color: white;
@@ -195,6 +195,7 @@ details{
     margin-bottom: 200px;
     z-index: 10;
     position: relative;
+
     
    
     
@@ -232,9 +233,11 @@ summary::-webkit-details-marker {
 
 summary{
     font-weight:bold;
-    text-shadow: 2px 5px 5px rgb(0, 0, 0);
+    text-shadow: 0px 5px 5px rgb(0, 0, 0);
 
 }
+
+
 
 main section{
     margin: 0 auto;
@@ -290,6 +293,7 @@ footer{
     background-color: #2F6975;
     text-decoration: none;
     padding: 50px;
+    margin: 0;
 } 
 
 .social a{
