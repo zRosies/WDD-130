@@ -12,22 +12,20 @@
     overflow: hidden;
     text-align: justify;
     margin-top: 50px;
-    
-
 
 
 }
-.b{
+/* .b{
     margin-top: -15px;
 }
 
 .aq{
     border-right: none;
-}
+} */
 
 .content2{
     margin-top: 20px;
-  background-color: rgb(46, 89, 145);
+    background-color: rgb(46, 89, 145);
     display: grid;
     
     grid-template-columns: 1fr 1fr 1fr;
