@@ -115,6 +115,7 @@ header{
     border-bottom-left-radius: 20px;
     right:0;
     left: 0;
+
 }
 nav{
     display: flex;
@@ -213,6 +214,7 @@ details{
     width: 100%;
     height: 100%;
     z-index: 1;
+
 }
 details>summary {
  
@@ -273,16 +275,15 @@ main section{
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     background-color: #2F6975;
     color:white;
     width: 100%;
     text-decoration: none;
     display: flex;
-    margin-bottom: 0;
+    bottom: 0;
     z-index: 20;
-    margin-top: -50px;
-    z-index: 5;
+    margin-top: 100px;
     
 }
 
@@ -357,4 +358,6 @@ footer p{
     }
 }
 
-/* *{border: 0.5px solid blue;} */
+/* 
+
+    *{border: 0.5px solid blue;} */
