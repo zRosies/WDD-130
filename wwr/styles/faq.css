@@ -205,12 +205,14 @@ details{
 
 
 .banner{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
-    height: 1000px;
-    z-index: -5;
+    height: 100%;
+    z-index: 1;
 }
 details>summary {
  
@@ -271,6 +273,7 @@ main section{
 }
 
 footer{
+    position: absolute;
     background-color: #2F6975;
     color:white;
     width: 100%;
@@ -278,6 +281,7 @@ footer{
     display: flex;
     margin-bottom: 0;
     z-index: 20;
+    margin-top: -50px;
     z-index: 5;
     
 }
@@ -292,8 +296,6 @@ footer{
     text-decoration: none;
     padding: 50px;
     margin: 0;
-    margin-top: 5px;
-    z-index: 5;
 } 
 
 .social a{
