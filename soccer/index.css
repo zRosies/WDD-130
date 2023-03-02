@@ -26,13 +26,6 @@ nav a:before {
     transform: scaleX(1);
   }
 
-    /* nav a:hover{
-        background-color: #347C13;
-        padding-bottom: -500px
-        ;
-    
-
-    } */
 
 .bb, .sc ,.tv{
 
@@ -46,16 +39,16 @@ nav a:before {
 .container3{
     position: relative;
 
-    left: 60%;
+    left: 65%;
     margin-top: -270px;
     margin-left: 40px ;
     width: 55%;
 }
 
-.container, .container2{
+.container{
     position: relative;
     width: 55%;
-    margin-left: 40px;
+    margin-left: 50px;
     border-radius: 10px;
     height: 50%;
     margin-top: 200px;
@@ -63,16 +56,21 @@ nav a:before {
 
 }
 
-.container2{
-    margin-left: 80px; 
-}
+.container2 {
+    position: relative;
+    left: 33%;
+    margin-top: -270px;
+    margin-left: 40px;
+    width: 55%;}
+
+
   
 .sc,.bb, .tv {
     display: block;
     width: 50%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(27, 22, 22, 0.8);
+    box-shadow: 10px 10px 10px rgba(27, 22, 22, 0.8);
     
   }
   
@@ -91,7 +89,7 @@ nav a:before {
     border-bottom-left-radius: 5px;
   }
   
-  .container:hover .overlay {
+.container:hover .overlay {
     height: 62%;
   }
 
@@ -104,11 +102,6 @@ nav a:before {
 
 
   
-.container2 {
-    position: relative;
-    left: 30%;
-    margin-top: -270px;
-    margin-left: 40px;}
 
 
     
@@ -159,38 +152,28 @@ nav a{
 
 @keyframes logo {
     0% {
-      transform: rotate(0deg);
+      transform: transform(0deg);
     }
     10% {
       transform: translate(0,-30deg);
 
     }
-    20% {
+    30% {
         transform: translate(0,20px);
       }
 
-    30% {
+    50% {
       transform: translate(0,-30deg);
     
     }
-    40% {
+    70% {
         transform: translate(0,10px);
       }
-    50% {
+    90% {
       transform: translate(0,-30deg);
-    }  
-    60% {
-      transform: translate(0,40deg);
-    }
-    70% {
-      transform: translate(0,40deg);
-    }
-    80%{
-        transform: translate(0,-30deg);
-    }
-  
+    } 
     100% {
-      transform: rotate(0deg);
+      transform: translate(0,40deg);
     }
   }
 
