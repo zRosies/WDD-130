@@ -86,7 +86,7 @@ nav a:before {
   }
   
 .container:hover .overlay {
-    height: 62%;
+    height: 55%;
   }
 .container2:hover .overlay2 {
     height: 50%;}
@@ -133,7 +133,7 @@ nav a{
 .logo{
     height: 150px;
     width: 150px;
-    
+    margin-bottom: -125px;
    
     
 }
