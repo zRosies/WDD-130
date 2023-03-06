@@ -218,13 +218,20 @@ body{
    
 }
 .footer{
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     color: white;
     text-decoration: none;
     margin-top: 50px;
-    margin-left: 380px;
+    margin-left: 0;
+    text-decoration: none;
   
 
+}
+.plan{
+    text-decoration: none;
+    margin-left: 150px;
+    color: white;
 }
 
 

@@ -217,16 +217,22 @@ body{
     margin-bottom: -200px;
    
 }
+
 .footer{
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    margin-top: 50px;
-    margin-left: 380px;
-  
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: 0;
+  text-decoration: none;
 
 }
-
+.plan{
+  text-decoration: none;
+  margin-left: 150px;
+  color: white;
+}
 
 .social{
     text-decoration: none;

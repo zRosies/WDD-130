@@ -312,13 +312,35 @@ body{
    
 }
 .footer{
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     color: white;
     text-decoration: none;
     margin-top: 50px;
-    margin-left: 380px;
-  
+    margin-left: 0;
+    text-decoration: none;
 
+}
+
+.plan{
+    text-decoration: none;
+    margin-left: 150px;
+    color: white;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #347C13;
+    transition: width 0.2s ease-in-out;
+  }
+  
+.footer:hover::before {
+    width: 100%;
 }
 
 .left, .right{
