@@ -282,6 +282,7 @@ footer{
     text-decoration: none;
     display: flex;
     z-index: 1;
+    
 
     
 }
@@ -361,7 +362,3 @@ footer p{
         margin-top: 25px;
     }
 }
-
-/* 
-
-    *{border: 0.5px solid blue;} */
