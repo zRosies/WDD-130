@@ -295,7 +295,10 @@ button{
     margin-left: 100px;
     padding: 10px;
 }
-.msg{
+#msg{
+    resize: none;
+   height: 130px;
+   width: 250px;
   
 }
 form ul{
@@ -333,11 +336,12 @@ form ul{
 }
 
 
+
 footer{
     background-color: #2F6975;
     color:white;
     padding: 25px 50px;
-    margin-top: 420px;
+    margin-top: 500px;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
