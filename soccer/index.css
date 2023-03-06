@@ -250,7 +250,7 @@ header{
 
 
 .wwt::after {
-    content: "Your Goals Starts Here";
+    content: "Your Goals start Here";
     display: none;
     position: absolute;
     top: 100%;
@@ -328,11 +328,6 @@ body{
     background-color: black;
 }
 
-.iconfb,.iconins, .iconttik, .incontw{
-    width: 30px;
-    height: 30px;
-
-}
 
 #herodiv{
     margin-top: 300px;
@@ -410,22 +405,32 @@ body{
     position: relative;
     bottom: 10%;
     background-color: black;
-    margin-top: 60px
+    margin-top: 60px;
+   
+}
+.social a{
+    color: black;
 }
 
 .social img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     opacity: 100%;
     justify-content: space-around;
     padding: 10px;  
     margin: 0 auto; 
     background-color: black;
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #347C13;
 }
 
 .follow{
     position: relative;
-    left: 138%;
+    left: 145%;
     margin-top: -120px;
+    font-size: 30px;
 }
+
 
