@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Moon+Dance&family=PT+Serif&family=Reem+Kufi+Fun&family=Roboto:wght@100&family=Rowdies:wght@300&display=swap');
+
+
+nav {
+    margin-right: -500px;
+    align-self: center;
+    margin-left: 200;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    left: 8%;
+  }
+nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: #347C13;
+    transition: width 0.2s ease-in-out;
+  }
+  
+nav  a:hover::before {
+    width: 100%;
+  }
+  
+
+.bb, .sc ,.tv{
+
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+.container3{
+    position: relative;
+    left: 68%;
+    margin-top: -295px;
+
+    width: 60%;
+}
+
+.container{
+    position: relative;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 30px;
+    
+}
+
+.container2 {
+    position: relative;
+    left: 35%;
+    margin-top: -296px;
+    width: 60%;}
+
+
+  
+.sc,.bb, .tv {
+    display: block;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(27, 22, 22, 0.8);
+    
+  }
+  
+.overlay, .overlay2,.overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0,0.7);
+    color: white;
+    overflow: hidden;
+    width: 50%;
+    height: 15%;
+    transition: .5s ease;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+.container:hover .overlay {
+    height: 55%;
+  }
+.container2:hover .overlay2 {
+    height: 50%;}
+
+.h1, .texta{
+    text-align: left;
+    font-size: 30px;
+    font-family: PT Serif;
+}
+
+.container3:hover .overlay3 {
+        height: 50%;}
+
+  
+.h2{
+    text-align: left;
+    font-size: 30px;
+    font-family: PT Serif;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+nav a{
+    z-index: 21;
+    font-size: 30px;
+    margin-right: 120px;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    align-content: end;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-bottom: -125px;
+   
+   
+    
+}
+
+
+
+@keyframes logo {
+    0% {
+      transform: transform(0deg);
+    }
+    10% {
+      transform: translate(0,-30deg);
+
+    }
+    30% {
+        transform: translate(0,20px);
+      }
+
+    50% {
+      transform: translate(0,-30deg);
+    
+    }
+    70% {
+        transform: translate(0,10px);
+      }
+    90% {
+      transform: translate(0,-30deg);
+    } 
+    100% {
+      transform: translate(0,40deg);
+    }
+  }
+
+.logo:hover{
+    animation:logo 0.7s linear infinite;
+}
+
+header{
+    background-color: rgb(0, 0, 0,0.8);
+    border: 200px;
+    grid-template-columns: repeat(2, 350px);
+    display: grid;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+
+
+
+body{
+
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #363937;
+    padding: 0px;
+}
+
+
+#footer{
+    max-width: 1fr ;
+    width: 100%;
+    max-height: 300px;
+    height: 100%;
+    background-color: rgb(2, 2, 2);
+    z-index: -5;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-right: -50px;
+    margin-top: 500px;
+    margin-bottom: -200px;
+   
+}
+.footer{
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 380px;
+  
+
+}
+
+
+.social{
+    text-decoration: none;
+    opacity: 100%;
+    position: relative;
+    bottom: 10%;
+    background-color: black;
+    margin-top: 60px;
+   
+}
+.social a{
+    color: black;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
+    justify-content: space-around;
+    padding: 10px;  
+    margin: 0 auto; 
+    background-color: black;
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px #347C13;
+}
+
+.follow{
+    position: relative;
+    left: 145%;
+    margin-top: -120px;
+    font-size: 30px;
+}
+
+
