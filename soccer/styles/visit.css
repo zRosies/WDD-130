@@ -263,10 +263,39 @@ body{
 }
 
 .follow{
-    position: relative;
-    left: 145%;
-    margin-top: -120px;
-    font-size: 30px;
+  position: relative;
+  left: 38%;
+  margin-top: -40px;
+  font-size: 30px;
+}
+
+.social img{
+  width: 30px;
+  height: 30px;
+  opacity: 100%;
+  justify-content: space-around;
+  padding: 10px;  
+  margin: 0 auto; 
+  background-color: black;
+  color: black;
+  text-decoration: none;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px white;
 }
 
 
+.plan:hover{
+
+text-decoration: underline #347C13;
+
+}
+
+.social img:hover{
+box-shadow: 2px 2px 2px #347C13;
+
+}
+
+
+img{
+    max-width: 300px;
+}
