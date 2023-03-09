@@ -99,10 +99,10 @@ main{
   }
   
 .container:hover .overlay {
-    height: 55%;
+    height: 60%;
   }
 .container2:hover .overlay2 {
-    height: 50%;}
+    height: 70%;}
 
 .h1, .texta{
     text-align: left;
