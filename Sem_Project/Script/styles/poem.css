@@ -1,0 +1,45 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+  
+.poem{
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(5,1fr);
+   
+
+  }
+
+  
+.block1{
+    grid-column: 1/5;
+    
+}
+.block1 h2{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.block2{
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+.block3{
+    grid-column: 3/7;
+    grid-row: 3/4;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.block4{
+    grid-row: 4/5;
+    grid-column: 2/7;
+   
+}
