@@ -76,44 +76,8 @@ nav  a:hover::before {
     box-shadow: 10px 10px 10px rgba(27, 22, 22, 0.8);
     
   }
-  
-.overlay, .overlay2,.overlay3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgb(0, 0, 0,0.7);
-    color: white;
-    overflow: hidden;
-    width: 50%;
-    height: 15%;
-    transition: .5s ease;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-  }
-  
-.container:hover .overlay {
-    height: 55%;
-  }
-.container2:hover .overlay2 {
-    height: 50%;}
-
-.h1, .texta{
-    text-align: left;
-    font-size: 30px;
-    font-family: PT Serif;
-}
-
-.container3:hover .overlay3 {
-        height: 50%;}
 
   
-.h2{
-    text-align: left;
-    font-size: 30px;
-    font-family: PT Serif;
-}
-
 #bar{
   padding: 5px;
   /* background: linear-gradient(to right, #004B23 5% ,#347C13 15%, #ccff33 60%, #347C13 80%, #004B23 95%); */
@@ -140,6 +104,90 @@ nav a{
    
     
 }
+
+.gps{
+  position: relative;
+  display:inline-flex;
+  background: rgb(0, 0, 0,0.8);
+  z-index: -1;
+  margin-top: 3px;
+
+}
+.gps p{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  align-self: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.gps img{
+  position: relative;
+  width: 100%;
+  box-shadow: 0px 0px 15px white;
+  z-index: 2;
+
+}
+
+.gps-img:hover{
+  transform: scale(1.1);
+}
+.park{
+  position: relative;
+  display:inline-flex;
+  background: rgb(0, 0, 0,0.8);
+  z-index: 1;
+  margin-top: -5px;
+  
+}
+.park p{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  align-self: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.park img{
+  box-shadow: 0px 0px 15px white;
+  position: relative;
+}
+.prom{
+  background-color: rgb(0, 0, 0);
+  display: inline-flex;
+  position: relative;
+  z-index: 5;
+}
+.prom img{
+  width: 800px;
+  width: 100%;
+  box-shadow: 0px 0px 15px white;
+  
+}
+
+.prom p{
+color: white;
+font-size: 25px ;
+align-self: center;
+margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.prom img:hover{
+  transform: scale(1.1);
+}
+
+.park img:hover{
+  transform: scale(1.1);
+}
+
+img{
+  max-width: 1000px;
+  max-height: 300px;
+
+} 
 
 
 
@@ -208,7 +256,7 @@ body{
     display: flex;
     justify-content: space-around;
     padding-right: -50px;
-    margin-top: 500px;
+    margin-top: 100px;
     margin-bottom: -200px;
    
 }
@@ -291,6 +339,3 @@ box-shadow: 2px 2px 2px #347C13;
 }
 
 
-img{
-    max-width: 300px;
-}
