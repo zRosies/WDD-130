@@ -34,49 +34,6 @@ nav  a:hover::before {
     width: 100%;
   }
   
-
-.bb, .sc ,.tv{
-
-    height: 300px;
-    width: 400px;
-}
-
-
-
-
-.container3{
-    position: relative;
-    left: 68%;
-    margin-top: -295px;
-
-    width: 60%;
-}
-
-.container{
-    position: relative;
-    width: 60%;
-    border-radius: 10px;
-    margin-left: 30px;
-    
-}
-
-.container2 {
-    position: relative;
-    left: 35%;
-    margin-top: -296px;
-    width: 60%;}
-
-
-  
-.sc,.bb, .tv {
-    display: block;
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(27, 22, 22, 0.8);
-    
-  }
-
   
 #bar{
   padding: 5px;
@@ -110,7 +67,8 @@ nav a{
   display:inline-flex;
   background: rgb(0, 0, 0,0.8);
   z-index: -1;
-  margin-top: 3px;
+  margin-top: 20px;
+ 
 
 }
 .gps p{
@@ -129,6 +87,27 @@ nav a{
 
 }
 
+.ticket{
+  z-index: 10;
+  color: white;
+  background: linear-gradient(to right,black 30%,#347C13 100%);
+  text-align: center;
+  width: 10%;
+  margin-left: 650px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px #fff;
+  font-family: PT Serif;
+  font-size: 18px;
+  box-shadow: 0px 0px 30px #347C13;
+  
+  
+}
+
+.ticket:hover{
+  transform:scale(1.1);
+
+}
 .gps-img:hover{
   transform: scale(1.1);
 }
@@ -137,7 +116,8 @@ nav a{
   display:inline-flex;
   background: rgb(0, 0, 0,0.8);
   z-index: 1;
-  margin-top: -5px;
+  margin-top: 20px;
+  
   
 }
 .park p{
@@ -158,11 +138,13 @@ nav a{
   display: inline-flex;
   position: relative;
   z-index: 5;
+  margin-top: 20px;
 }
 .prom img{
   width: 800px;
   width: 100%;
   box-shadow: 0px 0px 15px white;
+
   
 }
 
@@ -239,9 +221,10 @@ body{
 
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #363937;
+    background-color: black;
     padding: 0px;
 }
+
 
 
 #footer{
@@ -258,6 +241,7 @@ body{
     padding-right: -50px;
     margin-top: 100px;
     margin-bottom: -200px;
+    box-shadow: 0px 0px 20px #347C13;
    
 }
 .footer{
@@ -268,6 +252,7 @@ body{
     margin-top: 50px;
     margin-left: 0;
     text-decoration: none;
+   
   
 
 }
