@@ -234,6 +234,18 @@ header{
  
 }
 
+.wwt {
+    position: relative;
+    left: -100%;
+    animation: slide 1s forwards;
+  }
+  
+  @keyframes slide {
+    100% {
+      left: 0;
+    }
+  }
+
 
 
 body{
