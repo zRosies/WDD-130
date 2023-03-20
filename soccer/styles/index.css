@@ -75,12 +75,13 @@ nav  a:hover::before {
 
 .container3{
     position: relative;
-    left:44%;
+    left:50%;
     margin-top: -300px;
     width: 50%;
     z-index: 10;
     box-sizing: border-box;
     border-radius: 10px;
+    margin-left: -100px;
 }
 
 .overlay3 {
@@ -442,3 +443,7 @@ body{
     margin-top: -40px;
     font-size: 30px;
 }
+
+/* *{
+    border: 0.1px solid blue;
+} */
