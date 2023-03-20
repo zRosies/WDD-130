@@ -2,13 +2,15 @@
 
 .container {
     position: relative;
-    width:50%;
+    width:40%;
   }
   
 .img {
     display: block;
-    width: 30%;
-    height: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+
 }
   
 .overlay {
@@ -32,6 +34,8 @@
     position: absolute;
     overflow: hidden;
     margin-top: 150px;
+    color: white;
+    font-size: 20px;
 }
 .text {
     color: white;
