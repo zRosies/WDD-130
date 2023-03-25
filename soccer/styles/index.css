@@ -39,16 +39,6 @@ nav  a:hover::before {
     width: 100%;
   }
 
-
-.bb, .sc ,.tv{
-
-
-}
-
-.container, .container2, .container3{
-    display: inline-block;
-}
-
 .container{
     position: relative;
     width: 100%;
@@ -87,7 +77,7 @@ nav  a:hover::before {
 }
 
 .overlay3 {
-    width: 53%;
+    width: 52%;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -95,7 +85,7 @@ nav  a:hover::before {
     color: white;
     overflow: hidden;
     height: 15%;
-    transition: .5s ease;
+    transition: .6s ease;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -114,7 +104,7 @@ nav  a:hover::before {
   
 .sc,.bb, .tv {
     display: block;
-    width: 53%;
+    width: 52%;
     height: auto;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(27, 22, 22, 0.8);
@@ -123,7 +113,7 @@ nav  a:hover::before {
   
 .overlay, .overlay2{
     position: absolute;
-    width: 53%;
+    width: 52%;
     bottom: 0;
     left: 0;
     right: 50%;
@@ -131,7 +121,7 @@ nav  a:hover::before {
     color: white;
     overflow: hidden;
     height: 15%;
-    transition: .5s ease;
+    transition: .6s ease;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
