@@ -125,12 +125,16 @@ nav  a:hover::before {
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
   }
+
+.overlay p, .overlay2 p, .overlay3 p{
+    font-family: PT Serif;
+}
   
 .container:hover .overlay {
-    height: 74%;
+    height: 84%;
   }
 .container2:hover .overlay2 {
-    height: 82%;}
+    height: 91%;}
 .container3:hover .overlay3 {
 
         height: 62%;}    
@@ -138,7 +142,7 @@ nav  a:hover::before {
 .h1, .texta, .h2{
     text-align: left;
     font-size: 30px;
-    font-family: PT Serif;
+    font-family: Reem Kufi Fun;
 }
 
 
@@ -246,6 +250,7 @@ header{
     text-align: center;
     padding: 40px;
     align-self: flex-start;
+    font-family: Reem Kufi Fun;
  
 }
 
@@ -374,7 +379,7 @@ body{
     padding-top: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0,0.8);
-    font-family: PT Serif;
+    font-family: Reem Kufi Fun;
 }
 
 #herodiv a{
@@ -428,7 +433,8 @@ body{
     position: relative;
     left: 38%;
     margin-top: -40px;
-    font-size: 30px;
+    font-size: 30px; 
+   font-weight: 00;
 }
 
 /* *{
