@@ -243,7 +243,7 @@ header{
 
 .wwt {
     position: absolute;
-    width: 96%;
+    width: 94%;
     left: 0;
     z-index: 5;
     font-size: 50px;
@@ -284,7 +284,8 @@ body{
         background-image: url("aaa.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position:right
+        background-position:right;
+        background-position-y: -30vh;
 
 }
 #grid{
@@ -305,7 +306,7 @@ body{
     margin: 0;
     display: flex;
     justify-content: space-around;
-    margin-top: 460px;
+    margin-top: 600px;
 
    
 }
@@ -341,7 +342,7 @@ body{
 }
 
 #herodiv{
-    margin-top: 150px;
+    margin-top: 300px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     height: 300px;
