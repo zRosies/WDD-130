@@ -35,11 +35,16 @@ nav  a:hover::before {
   }
   
   
-#bar{
-  padding: 5px;
-  /* background: linear-gradient(to right, #004B23 5% ,#347C13 15%, #ccff33 60%, #347C13 80%, #004B23 95%); */
-  background: linear-gradient(to left,black 15%, #ccff33 60%, #347C13 80%, #004B23 90%);
-  box-shadow: 5px  2px 5px ;
+  #bar{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 4.6em;
+    padding: 5px;
+    /* background: linear-gradient(to right, #004B23 5% ,#347C13 15%, #ccff33 60%, #347C13 80%, #004B23 95%); */
+    background: linear-gradient(to left,black 15%, #ccff33 60%, #347C13 80%, #004B23 90%);
+    box-shadow: 5px  2px 5px ;
+    z-index: -1 ;
 }
 
 
@@ -67,7 +72,7 @@ nav a{
   display:inline-flex;
   background: rgb(0, 0, 0,0.8);
   z-index: 2;
-  margin-top: 70px;
+  margin-top: 200px;
   margin-left: 50px;
  
 
@@ -212,13 +217,15 @@ img{
 }
 
 header{
-    background-color: rgb(0, 0, 0,0.8);
-    border: 200px;
-    grid-template-columns: repeat(2, 350px);
-    display: grid;
-    width: 100%;
-    margin-bottom: 0;
-    padding-bottom: 20px;
+  background-color: rgb(0, 0, 0,0.8);
+  grid-template-columns: repeat(2, 350px);
+  display: grid;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 
@@ -235,19 +242,17 @@ body{
 
 
 #footer{
-    max-width: 1fr ;
-    width: 100%;
-    max-height: 300px;
-    height: 100%;
-    background-color: rgb(2, 2, 2);
-    z-index: -5;
-    color: white;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    padding-right: -50px;
-    margin-top: 100px;
-    margin-bottom: -200px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  max-height: 300px;
+  background-color: #000000;
+  z-index: -5;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
     box-shadow: 0px 0px 20px #347C13;
    
 }
