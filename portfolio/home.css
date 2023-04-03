@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 
 *{
     margin: 0;
@@ -6,12 +8,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 
-
 }
 .logo{
     font-size: 2em;
     color: white;
     user-select: none;
+    
 }
 header{
     position: fixed;
@@ -19,10 +21,358 @@ header{
     top: 0;
     width: 100%;
     padding: 20px;
-    background-color: blue;
+    background-color: rgb(2, 2, 2, 0.8);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
 
+
 }
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 3%;
+    top: 95%;
+    background: white;
+    border-radius: 5px;
+    /* transform-origin: left;  */
+    
+    transform: scaleX(0);
+    transition: transform .3s;
+
+}
+
+.navigation a:hover::after{
+    /* transform-origin: right; */
+    transform: scale(1);
+}
+nav a{
+    color: white;
+    margin: 20px;
+    font-size: 1.1em;
+    position: relative;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size:1.5em;
+}
+
+.login{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 1em;
+}
+
+.login:hover{
+    background: white;
+    color: black;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 30px rgba(0, 0, 0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: .2s ease;
+    overflow: hidden; 
+    transform: scale(0);
+   
+}
+
+.wrapper.active-pop{
+    transform: scale(1);
+}
+
+
+.registerlin{
+    color: black;
+    text-decoration: none;
+}
+.registerlin:hover{
+    text-decoration: underline;
+}
+.loglin{
+    color: black;
+    text-decoration: none;
+}
+.loglin:hover{
+    text-decoration: underline;
+}
+
+.wrapper.active{
+    height: 520px;
+}
+
+.formbox{
+    transition: .20s ease;
+    transform: translateX(0);
+}
+.wrapper.active .formbox{
+    transition: none;
+    transform: translateX(-400px);
+
+}
+.container1.active-pop{
+    transform: scaleX(0);
+}
+.wrapper.active .formboxreg{
+    position: absolute;
+    transition: .20s ease;
+    transform: translateX(0);
+}
+
+
+.wrapper .formboxreg{
+    position: absolute;
+    transition: .20s ease;
+    transform: translateX(400px); 
+}
+.remember a{
+    font-size: 1em;
+    font-weight: 500;
+    justify-self: start;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 5px 15px rgba(0, 0, 0,0.8);
+    font-weight: 800;
+
+   
+}
+
+.remember{
+    display: flex;
+    margin: -10px 0 15px;
+    
+}
+
+.remember label{
+    margin-left: 10px;
+    color: white;
+    box-shadow: 2px 2px 15px rgb(2, 2, 2, 0.8);
+    padding: 5px;
+    border-radius: 6px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0);
+    
+
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+
+.formbox h2{
+    font-size: 2em;
+    text-align: center;
+    margin-top: -60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+
+}
+
+
+.ipbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.ipbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-weight: 500;
+    transition: .5s;
+    pointer-events: none;
+    font-size: 1em;
+    font-weight: 800;
+    
+}
+.remember label{
+    font-size: 1em;
+    font-weight: 800;
+    justify-self: start;
+    margin-right: 20px;
+}
+.ipbox input:focus~label,
+.ipbox input:valid~label{
+    top: 5px;
+}
+.lbutton{
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.lbutton:hover{
+    background-color: rgba(255, 255, 255,0.5);
+    color: black;
+}
+
+.ipbox input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    top: -10px;
+}
+.login-regis{
+    display: flex;
+    font-size: 1.1em;
+    font-weight: 900;
+    position: relative;
+    left: 5%;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.register{
+
+    text-decoration:none;
+    margin-left: 5px;
+    font-size: 1em;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.register:hover{
+    text-decoration: underline;
+}
+.icon{
+   
+    position: relative;
+    width: 100%;
+    top:50%;
+    left: 90%;
+
+}
+.iconclose{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 45px;
+    width: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    border-bottom-left-radius: 25px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.formboxreg h2{
+margin-bottom: -18px;
+}
+
+.container1{
+    position:absolute;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0,0.8);
+    border-radius: 20px;
+    left: 5%;
+    top: 20%;
+    transition: .4s ease-in;
+}
+.text{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.container1 .text h2{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
+    text-shadow: 0 2px 20px rgba(0, 0, 0);
+
+  
+}
+
+.container1 .text h2 span{
+    font-size: 3.5em;
+    color: ;
+    text-shadow: 0 2px 20px rgba(0, 255, 255);
+
+}
+.container1 .text p{
+    color: #fff;
+}
+.joinus{
+    position: relative;
+    display: inline-flex;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: .3s ease-in-out;
+    ;
+    left: 50%;
+    margin-bottom: 40px;
+
+}
+
+.joinus:hover{
+    background: rgba(0, 255, 255);
+    box-shadow: 0 2px 20px rgba(0, 255, 255); 
+    color: black;
+    font-weight: 700;
+    /* transform: translateY(-10px); */
+    transform: scale(1.1);
+}
+
+
+body{
+    background-image: url('future.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+
+
+
