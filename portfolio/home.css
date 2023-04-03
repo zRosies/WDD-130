@@ -310,6 +310,99 @@ margin-bottom: -18px;
     top: 20%;
     transition: .4s ease-in;
 }
+.ima{
+   
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    right: 5%;
+    top: 10%;
+    transition: .5s ease-in-out;
+    animation: ima 5s infinite;
+}
+.imb{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 21.6%;
+    top: 42%;
+    animation: imb 5s infinite;
+    
+}
+
+@keyframes imb {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(18deg);
+
+    }
+    20% {
+        transform: scale(0.1);
+      }
+
+    30% {
+      transform: rotate(-18deg);
+    
+    }
+    40% {
+        transform: scale();
+      }
+    50% {
+      transform: rotate(18deg);
+    }  
+    60% {
+      transform: rotate(-19deg);
+    }
+    70% {
+      transform: rotate(16deg);
+    }
+    80%{
+        transform: rotate(-18deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+@keyframes ima {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-18deg);
+
+    }
+    20% {
+        transform: scale(1.2                   );
+      }
+
+    30% {
+      transform: rotate(18deg);
+    
+    }
+    40% {
+        transform: rotate();
+      }
+    50% {
+      transform: rotate(-18deg);
+    }  
+    60% {
+      transform: rotate(19deg);
+    }
+    70% {
+      transform: rotate(16deg);
+    }
+    80%{
+        transform: rotate(18deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 .text{
     position: relative;
     max-width: 600px;
