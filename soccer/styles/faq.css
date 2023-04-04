@@ -288,11 +288,14 @@ body {
 }
 
 .follow{
-  position: relative;
-  left: 38%;
+  position: absolute;
+  left: 77%;
   margin-top: -40px;
-  font-size: 30px;
+  font-size: 30px; 
+ font-weight: 0;
+
 }
+
 
 
 .plan:hover{
