@@ -4,7 +4,6 @@
 nav {
     margin-right: -500px;
     align-self: center;
-    margin-left: 200;
     justify-content: space-between;
     margin-top: 20px;
     
@@ -12,7 +11,7 @@ nav {
 
 
 nav a {
-    color: #fff;
+    color: #FFFF;
     text-decoration: none;
     font-size: 18px;
     display: inline-block;
@@ -38,11 +37,11 @@ nav  a:hover::before {
   #bar{
     position: absolute;
     left: 0;
-    width: 100%;
+    width: 95%;
     margin-top: 4.6em;
     padding: 5px;
     /* background: linear-gradient(to right, #004B23 5% ,#347C13 15%, #ccff33 60%, #347C13 80%, #004B23 95%); */
-    background: linear-gradient(to left,black 15%, #ccff33 60%, #347C13 80%, #004B23 90%);
+    background: linear-gradient(to left,#000000 15%, #ccff33 60%, #347C13 80%, #004B23 90%);
     box-shadow: 5px  2px 5px ;
     z-index: -1 ;
 }
@@ -53,7 +52,7 @@ nav a{
     font-size: 30px;
     margin-right: 120px;
     justify-content: space-between;
-    color: white;
+    color: #FFFF;
     text-decoration: none;
     align-content: end;
 }
@@ -78,48 +77,69 @@ nav a{
 
 }
 .gps p{
-  color: white;
+  color: #FFFF;
   text-align: center;
   font-size: 25px;
   align-self: center;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: PT Serif;
+  font-family: 'PT Serif';
 }
 .gps img{
   position: relative;
   width: 100%;
-  box-shadow: 0px 0px 20px white;
+  box-shadow: 0px 0px 20px #FFFF;
   z-index: 2;
 
 }
 
 .ticket{
   z-index: 10;
-  color: white;
-  background: linear-gradient(to right,black 30%,#347C13 100%);
+  color: transparent;
+  /* background: linear-gradient(to right,#000000 30%,#347C13 100%); */
   text-align: center;
   width: 12%;
   margin-left: 650px;
   padding: 30px;
   border-radius: 20px;
-  border: 1px #fff;
-  font-family: PT Serif;
+  font-family: 'PT Serif';
   font-size: 18px;
-
-  border: solid 0.5px white;
+  border: solid 2px #FFFF;
   /* background: transparent; */
+  
   transition: .3s ease-in;
-  background-origin: left;
+  animation: aa 3s infinite;
+  box-shadow: 0px 0px 30px #347C13;
   
   
+}
+
+@keyframes aa{
+  30% {
+    transform: scale(0.9);
+    
+  }
+  60% {
+    transform: scale(1.1);
+
+  }
+  80% {
+      background:#347C13;
+      color: #fff;
+    
+    }
+  81%{
+    transform: scale(0.9);
+  }
+
 }
 
 .ticket:hover{
   transform:scale(1.1);
   box-shadow: 0px 0px 30px #347C13;
   background: #347C13;
-  background
+  color: #ffff;
+  
 
 }
 .gps-img:hover{
@@ -136,21 +156,21 @@ nav a{
   
 }
 .park p{
-  color: white;
+  color: #FFFF;
   text-align: center;
   font-size: 25px;
   align-self: center;
   margin-left: 100px;
   margin-right: 100px;
-  font-family: PT Serif;
+  font-family: 'PT Serif', 'sans-serif';
 }
 
 .park img{
-  box-shadow: 0px 0px 15px white;
+  box-shadow: 0px 0px 15px #FFFF;
   position: relative;
 }
 .prom{
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   display: inline-flex;
   position: relative;
   z-index: 5;
@@ -160,18 +180,18 @@ nav a{
 .prom img{
   width: 900px;
   height: 400px;
-  box-shadow: 0px 0px 15px white;
+  box-shadow: 0px 0px 15px #FFFF;
 
   
 }
 
 .prom p{
-color: white;
+color: #FFFF;
 font-size: 25px ;
 align-self: center;
 margin-left: 100px;
   margin-right: 100px;
-  font-family: PT Serif;
+  font-family: 'PT Serif';
 
 }
 
@@ -192,31 +212,31 @@ img{
 
 
 @keyframes logo {
-    0% {
-      transform: transform(0deg);
-    }
-    10% {
-      transform: translate(0,-30deg);
-
-    }
-    30% {
-        transform: translate(0,20px);
-      }
-
-    50% {
-      transform: translate(0,-30deg);
-    
-    }
-    70% {
-        transform: translate(0,10px);
-      }
-    90% {
-      transform: translate(0,-30deg);
-    } 
-    100% {
-      transform: translate(0,40deg);
-    }
+  0% {
+    transform: translate(0px);
   }
+  10% {
+    transform: translate(0,15px);
+
+  }
+  30% {
+      transform: translate(0,-15px);
+    }
+
+  50% {
+    transform: translate(0,10px);
+  
+  }
+  70% {
+      transform: translate(0,-10px);
+    }
+  90% {
+    transform: translate(0,10px);
+  } 
+  100% {
+    transform: translate(0,0);
+  }
+}
 
 .logo:hover{
     animation:logo 0.7s linear infinite;
@@ -241,7 +261,7 @@ body{
 
     max-width: 1600px;
     margin: 0 auto;
-    background-color: black;
+    background-color: #000000;
     padding: 0px;
 }
 
@@ -254,7 +274,7 @@ body{
   max-height: 300px;
   background-color: #000000;
   z-index: -5;
-  color: white;
+  color: #FFFF;
   margin: 0;
   display: flex;
   justify-content: space-around;
@@ -265,7 +285,7 @@ body{
 .footer{
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #FFFF;
     text-decoration: none;
     margin-top: 50px;
     margin-left: 0;
@@ -277,7 +297,7 @@ body{
 .plan{
     text-decoration: none;
     margin-left: 150px;
-    color: white;
+    color: #FFFF;
 }
 
 
@@ -286,12 +306,12 @@ body{
     opacity: 100%;
     position: relative;
     bottom: 10%;
-    background-color: black;
+    background-color: #000000;
     margin-top: 60px;
    
 }
 .social a{
-    color: black;
+    color: #000000;
 }
 
 .social img{
@@ -301,8 +321,8 @@ body{
     justify-content: space-around;
     padding: 10px;  
     margin: 0 auto; 
-    background-color: black;
-    color: black;
+    background-color: #000000;
+    color: #000000;
     text-decoration: none;
     border-radius: 50%;
     box-shadow: 2px 2px 2px #347C13;
@@ -315,22 +335,64 @@ body{
   justify-content: space-around;
   padding: 10px;  
   margin: 0 auto; 
-  background-color: black;
-  color: black;
+  background-color: #000000;
+  color: #000000;
   text-decoration: none;
   border-radius: 50%;
-  box-shadow: 2px 2px 2px white;
+  box-shadow: 2px 2px 2px #FFFF;
+}
+.follow{
+position: absolute;
+left: 78%;
+margin-top: -40px;
+font-size: 30px; 
 }
 
 
-.plan:hover{
 
-text-decoration: underline #347C13;
+.footer h3{
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-right: -10px;
+  margin-left: 240px;
+  
+}
+
+.plan{
+  text-decoration: none;
+  margin-left: 0px;
+  color: #FFFF;
+  margin-left: -20px;
+  margin-right: 90px;
+  margin-bottom: 20px;
+}
+
+
+.plan::after{
+  content: '';
+  position: absolute;
+  transform: scale(0);
+  transition: transform .5s ease;
+  background: #347C13;
+  width: 8%;
+  height: 4px;
+  border-radius: 5px;
+  z-index: 20;
+  margin-top: -18px;
+  transform-origin: left;
+  
+}
+
+.plan:hover:after{
+  transform: scale(1);
+  background-color: #347C13;
 
 }
 
 .social img:hover{
 box-shadow: 2px 2px 2px #347C13;
+transition: .3s ease-in-out;
 
 }
 

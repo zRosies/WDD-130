@@ -39,15 +39,17 @@ header{
     top: 95%;
     background: white;
     border-radius: 5px;
-    /* transform-origin: left;  */
+    /* transform-origin: right;  */
     
     transform: scaleX(0);
     transition: transform .3s;
 
 }
-
+*{
+    border: solid 1px blue;
+}
 .navigation a:hover::after{
-    /* transform-origin: right; */
+    /* transform-origin: left; */
     transform: scale(1);
 }
 nav a{
@@ -248,12 +250,14 @@ nav a{
 }
 .login-regis{
     display: flex;
+    justify-content: space-between;
     font-size: 1.1em;
     font-weight: 900;
     position: relative;
-    left: 5%;
+
     text-align: center;
     margin-top: 10px;
+    margin-right: 58px;
     
 }
 
@@ -311,8 +315,6 @@ margin-bottom: -18px;
     transition: .4s ease-in;
 }
 .ima{
-   
-    position: absolute;
     width: 550px;
     height: 550px;
     right: 5%;
@@ -321,13 +323,22 @@ margin-bottom: -18px;
     animation: ima 5s infinite;
 }
 .imb{
+    position: relative;
     width: 60px;
     height: 60px;
-    position: absolute;
-    right: 21.6%;
-    top: 42%;
+    right: 50.7%;
+    top: 43%;
     animation: imb 5s infinite;
     
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 2%;
+    top: 10%;
 }
 
 @keyframes imb {
@@ -422,7 +433,6 @@ margin-bottom: -18px;
 
 .container1 .text h2 span{
     font-size: 3.5em;
-    color: ;
     text-shadow: 0 2px 20px rgba(0, 255, 255);
 
 }
