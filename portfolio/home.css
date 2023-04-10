@@ -9,6 +9,12 @@
     font-family: 'Poppins', sans-serif;
 
 }
+
+html, body{
+    height: 100%;
+}
+
+
 .logo{
     font-size: 2em;
     color: white;
@@ -308,7 +314,6 @@ margin-bottom: -18px;
     justify-content: space-between;
     background: transparent;
     backdrop-filter: blur(10px);
-    box-shadow: rgba(0, 0, 0,0.8);
     border-radius: 20px;
     left: 5%;
     top: 20%;
@@ -442,7 +447,7 @@ margin-bottom: -18px;
     color: #fff;
     position: relative;
     animation: animate 3s steps(12) infinite;
-    transition: 0.5 ease-in-out; 
+    transition: 0.5s ease-in-out; 
 
 
 }
@@ -537,7 +542,7 @@ body{
 }
 
 .footer{
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -545,6 +550,8 @@ body{
     background-color: rgb(2, 2, 2, 0.8);
     color: white;
     text-align: center;
+    margin-top: 0px;
+    height: 70px;
     
 
 }

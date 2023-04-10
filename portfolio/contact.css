@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+html, body{
+    height: 100%;
+}
 
 *{
     margin: 0;
@@ -86,7 +89,7 @@ body{
 
 
 .footer{
-    position: relative;
+    position: absolute;
     background: black;
     color: white;
     left: 0;
