@@ -535,6 +535,17 @@ body{
 
 }
 
+.footer{
+    position: absolute;
+    background: black;
+    color: white;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+}
+
 
 
 
