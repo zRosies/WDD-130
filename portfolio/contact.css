@@ -98,3 +98,149 @@ body{
     padding: 30px;
     text-align: center;
 }
+
+body{
+    background-image: url('future.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.feedback{
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+    background-color: transparent;
+    box-shadow: 3px 3px 15px rgba(0,0,0, 0.6);
+    height: 55%;
+    width: 24%;
+    border-radius: 4%;
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.feedback h2{
+    font-size: 900;
+    position: relative;
+    top: 0;
+    margin-top: -8%;
+    margin-bottom: 4%;
+    
+
+}
+
+.feedback input{
+    margin-top:px;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px black;
+    width: 100%;
+}
+
+#msg{
+    margin-top: 10px;
+}
+
+.ma{
+    justify-self: center;
+    /* position: relative;
+    justify-self: start ;
+    text-align: start;
+    left: 40%; */
+}
+
+.button{
+    position: relative;
+    width: 60%;
+    padding: 3.7%;
+    margin-top: 15%;
+    left: 20%;
+    color: white;
+    border: none;
+    pointer-events: pointer ;
+    background: black;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: rgba(0,255,255);
+    color: black;
+    border: none;
+    box-shadow: 3px 1px 10px rgba(0,255,255);
+    transform: scale(1.1);
+    font-weight: 900;
+
+}
+
+textarea{
+    margin-top: -20%;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    justify-self: start;
+    left: -10;
+    resize: none;
+    backdrop-filter: blur(0px);
+
+    border: none;
+}
+
+.icon{
+   
+    position: relative;
+    width: 100%;
+    top:35px;
+    left: 74%;
+
+}
+
+.name{
+    position: relative;
+    top:25px;
+    overflow: hidden;
+    transform: translateY(50%);
+    transition: .5s;
+
+}
+.aa{
+    overflow: hidden;
+}
+
+.nam{
+    position: relative;
+    top: 33px;
+    transform: translateY(-50%);
+    transition: .5s;
+}
+
+.feedback input{
+    padding: 5px;
+    pointer-events: unset;
+    outline: none;
+}
+
+.feedback label{
+    pointer-events: none;
+    
+}
+input:focus~label,
+input:valid~label{
+    top: 10px;
+}
+
+input:focus + label,
+input:valid + label {
+    top: 20px;
+}
