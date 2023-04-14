@@ -116,7 +116,7 @@ body{
     padding: 50px;
     background-color: transparent;
     box-shadow: 3px 3px 15px rgba(0,0,0, 0.6);
-    height: 55%;
+    height: 65%;
     width: 24%;
     border-radius: 4%;
     backdrop-filter: blur(15px);
@@ -129,7 +129,7 @@ body{
 }
 
 .feedback h2{
-    font-size: 900;
+    font-weight: 1000;
     position: relative;
     top: 0;
     margin-top: -8%;
@@ -151,6 +151,7 @@ body{
 }
 
 .ma{
+    position: relative;
     justify-self: center;
     /* position: relative;
     justify-self: start ;
@@ -207,19 +208,15 @@ textarea{
 }
 
 .name{
-    position: relative;
     top:25px;
     overflow: hidden;
     transform: translateY(50%);
     transition: .5s;
 
 }
-.aa{
-    overflow: hidden;
-}
 
 .nam{
-    position: relative;
+
     top: 33px;
     transform: translateY(-50%);
     transition: .5s;
@@ -233,14 +230,11 @@ textarea{
 
 .feedback label{
     pointer-events: none;
+    font-weight: 1000;
     
 }
 input:focus~label,
 input:valid~label{
-    top: 10px;
+    top: -0px;
 }
 
-input:focus + label,
-input:valid + label {
-    top: 20px;
-}
