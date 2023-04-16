@@ -25,20 +25,23 @@
     </header>
     <form class="feedback" action="/my-handling-form-page" method="post"> 
         <ul>
-            <h2>Send Us a Message</h2>
-            <div>
-                <label class="name" for="name">Name</label>
+            <h2 class="t">Send Us a Message</h2>
+            <div id="nob">
+                
+                <input  id="name" required/> 
+                <label class="nam" for="name">Name</label>
                 <span class="icon"><ion-icon name="person"></ion-icon></span>
-                <input type="text" id="name" required/> 
+                
             </div>
-            <div class="aa">
+            <div class="Noa">
+                <input type="email" id="mail" required/>
                 <label class="nam" for="mail">Email</label>
                 <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                <input type="email" id="mail" required/>
-                <label class="ma" for="msg">Message</label>
+                
+                <label class="msg" for="a">Message</label>
             </div>
             <div>
-                <textarea id="msg" name="user_message" ></textarea>
+                <textarea id="msg" name="user_message"></textarea>
                 
                
             </div>
@@ -48,7 +51,11 @@
         </ul>
         
     </form>
-    <div id="feedback"></div>
+    <div class="img">
+        <img class='ima' src="img.png" alt="aa">
+        <img class= 'imb' src="img2.png" alt="bb">
+        
+    </div>
         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 

@@ -410,7 +410,7 @@ margin-bottom: -18px;
       transform: rotate(19deg);
     }
     70% {
-      transform: rotate(16deg);
+      transform: rotate(16deg); 
     }
     80%{
         transform: rotate(18deg);

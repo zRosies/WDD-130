@@ -128,15 +128,18 @@ body{
 
 }
 
-.feedback h2{
-    font-weight: 1000;
-    position: relative;
-    top: 0;
-    margin-top: -8%;
-    margin-bottom: 4%;
-    
 
+.t{
+    position: relative;
+    background-color:transparent;
+    box-shadow: 5px 5px 20px rgba(0,0,0);
+    top: -30px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    backdrop-filter: blur(200px);
 }
+
 
 .feedback input{
     margin-top:px;
@@ -144,11 +147,10 @@ body{
     border: none;
     border-bottom: solid 2px black;
     width: 100%;
+    margin-bottom: 15px;
 }
 
-#msg{
-    margin-top: 10px;
-}
+
 
 .ma{
     position: relative;
@@ -173,6 +175,7 @@ body{
     transition: .5s ease-in-out;
     font-weight: 900;
     cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0,0,0)
 }
 
 .button:hover{
@@ -193,32 +196,37 @@ textarea{
     justify-self: start;
     left: -10;
     resize: none;
-    backdrop-filter: blur(0px);
-
-    border: none;
+    
+    margin-top: 10px;
+    backdrop-filter: blur(500px);
+    background-color:white ;
+    box-shadow: 1px 1px 10px;
+   
 }
 
 .icon{
    
     position: relative;
     width: 100%;
-    top:35px;
-    left: 74%;
+    top:-35px;
+    left: 73%;
 
 }
 
 .name{
-    top:25px;
-    overflow: hidden;
-    transform: translateY(50%);
+    position: relative;
+    top:-35px;
     transition: .5s;
+
 
 }
 
-.nam{
 
-    top: 33px;
-    transform: translateY(-50%);
+
+.nam{
+    position: relative;
+    top: -40px;
+    transform: translateY(50%);
     transition: .5s;
 }
 
@@ -235,6 +243,137 @@ textarea{
 }
 input:focus~label,
 input:valid~label{
-    top: -0px;
+    /* color: transparent; */
+    top: -68px;
+    
 }
+
+.msg{
+    padding: 3px;
+    background: black;
+    box-shadow: 1px 1px 5px rgba(0,0,0);
+    border-radius: 5px;
+    color: white;
+    backdrop-filter: blur(200px);
+    margin-left: 40px;
+
+
+}
+
+.ima{
+    width: 550px;
+    height: 550px;
+    left: 5%;
+    top: 10%;
+    transition: .5s ease-in-out;
+    animation: ima 5s infinite;
+}
+.imb{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    right: 50.7%;
+    top: 43%;
+    animation: imb 5s infinite;
+    
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    z-index: -1 ;
+    animation: img 1s ease-in;
+}
+
+@keyframes img{
+    0%{
+        transform: translateX(110%);
+    }
+    50%{
+        transform: translateX(0);
+    }
+
+}
+
+
+
+@keyframes imb {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(18deg);
+
+    }
+    20% {
+        transform: scale(0.1);
+      }
+
+    30% {
+      transform: rotate(-18deg);
+    
+    }
+    40% {
+        transform: scale();
+      }
+    50% {
+      transform: rotate(18deg);
+    }  
+    60% {
+      transform: rotate(-19deg);
+    }
+    70% {
+      transform: rotate(16deg);
+    }
+    80%{
+        transform: rotate(-18deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+@keyframes ima {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-18deg);
+
+    }
+    20% {
+        transform: scale(1.2                   );
+      }
+
+    30% {
+      transform: rotate(18deg);
+    
+    }
+    40% {
+        transform: rotate();
+      }
+    50% {
+      transform: rotate(-18deg);
+    }  
+    60% {
+      transform: rotate(19deg);
+    }
+    70% {
+      transform: rotate(16deg);
+    }
+    80%{
+        transform: rotate(18deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
 
