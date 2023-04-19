@@ -275,6 +275,8 @@ main section{
 }
 
 footer{
+    left: 0;
+    right: 0;
     position: absolute;
     background-color: #2F6975;
     color:white;

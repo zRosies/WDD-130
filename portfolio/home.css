@@ -210,7 +210,6 @@ nav a{
     transform: translateY(-50%);
     font-weight: 500;
     transition: .5s;
-    pointer-events: none;
     font-size: 1em;
     font-weight: 800;
     
@@ -364,7 +363,7 @@ margin-bottom: -18px;
     
     }
     40% {
-        transform: scale();
+        
       }
     50% {
       transform: rotate(18deg);
@@ -401,7 +400,7 @@ margin-bottom: -18px;
     
     }
     40% {
-        transform: rotate();
+        
       }
     50% {
       transform: rotate(-18deg);
