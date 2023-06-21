@@ -10,18 +10,21 @@ const text = document.querySelector('.future');
 const textLoad = () => {
 
   setTimeout(() => {
-    text.textContent = "Is Here";
+    text.textContent = "Gustavo";
   }, 100);
   setTimeout(() => {
-    text.textContent = "Is Now";
+    text.textContent = "Software Developer";
   }, 3000);
   setTimeout(() => {
-    text.textContent = "Is Good";
+    text.textContent = "Web Developer";
   }, 6000);
+  setTimeout(() => {
+    text.textContent = "The Future";
+  }, 9000);
 
   setTimeout(() => {
     textLoad(count + 1);
-  }, 9000);
+  }, 12000);
 }
 
 
