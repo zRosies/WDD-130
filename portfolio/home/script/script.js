@@ -85,4 +85,11 @@ const yeardate= date.getFullYear();
 const year = document.querySelector("#year");
 const lastUpd= document.querySelector("#update");
 
+
+
+const change = document.lastModified;
+const last = new Date(change);
+const go = last.toLocaleString("pt-Br");
+
 year.textContent=yeardate;
+lastUpd.textContent=go;
