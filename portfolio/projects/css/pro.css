@@ -164,6 +164,11 @@ nav a{
 section{
   transition: .3s ease-in;
   width: 100%;
+  display: none;
+}
+
+.web{
+  display: block;
 }
 
 
