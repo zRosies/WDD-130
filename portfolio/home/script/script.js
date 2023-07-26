@@ -10,7 +10,7 @@ const text = document.querySelector('.future');
 const textLoad = () => {
   let count=0;
   setTimeout(() => {
-    text.textContent = "Gustavo";
+    text.textContent = "Gustavo Bispo";
   }, 0);
   setTimeout(() => {
     text.textContent = "Software Developer";
@@ -93,3 +93,4 @@ const go = last.toLocaleString("pt-Br");
 
 year.textContent=yeardate;
 lastUpd.textContent=go;
+
